@@ -80,13 +80,7 @@ const Posts = () => {
     fetch(devTo).then(r=> r.json()).then(setPosts)
   }, [])
 
-
-  console.log(posts.list)
-
-  
-  // return null
   return posts.list.map(post => <Post post={post} />)
-  // Object.entries(obj.topics).map(([k,v])=>
 }
 
 export default Posts
