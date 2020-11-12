@@ -23,7 +23,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://arisac.github.io/demo-rpfapi",
+  "homepage": "https://arisac.github.io/demo-rpfapi-newbridge-history",
   "browserslist": {
     "production": [
       ">0.2%",
